@@ -1,0 +1,9 @@
+# Local builds and settings
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/**/build/
+android/.idea/
+*.apk
+*.exe
+.DS_Store

@@ -21,7 +21,7 @@ func ListenPacket() {
 	go func() {
 		buf := make([]byte, buffsize)
 		for {
-			n, err, addr := pc.ReadFrom(buf)
+			n, addr, err := pc.ReadFrom(buf)
 			if err != nil {
 				return
 			}
